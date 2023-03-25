@@ -1,0 +1,48 @@
+.card {
+    margin: 5vh;
+}
+
+tr th {
+    color: #fff;
+    background: #222;
+}
+
+.card h1 {
+    color: #111;
+    font-family: sans-serif;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#actions-right {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 36vh;
+}
+
+#actions-left {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 37vh;
+}
+
+#btn-profile-logout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 12vh;
+    height: 7vh;
+}
+
+#btn-edit-delete {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 11vh;
+}
